@@ -5,8 +5,8 @@ import cv2
 import random
 
 # Input and output directories
-input_dir = r"C:\Users\render\Desktop\puncher\makin_dataset\all_cards_w_names_jpg"
-output_dir = r"C:\Users\render\Desktop\puncher\makin_dataset\dataset_for_class"
+input_dir = r"INSERT PATH HERE"
+output_dir = r"INSERT PATH HERE"
 
 # Ensure the output directory exists
 os.makedirs(output_dir, exist_ok=True)
