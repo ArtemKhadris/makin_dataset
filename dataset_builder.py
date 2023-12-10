@@ -6,10 +6,10 @@ import tqdm
 import math 
 from PIL import Image
 
-jpg_background_folder = 'C:\\Users\\artem\\Desktop\\work\\puncher\\cards_names\\background_jpg'
-png_background_folder = 'C:\\Users\\artem\\Desktop\\work\\puncher\\cards_names\\background_png'
-jpg_image_folder = 'C:\\Users\\artem\\Desktop\\work\\puncher\\cards_names\\all_cards_w_names_jpg'
-png_image_folder = 'C:\\Users\\artem\\Desktop\\work\\puncher\\cards_names\\all_cards_w_names_png'
+jpg_background_folder = 'INSERT PATH HERE'
+png_background_folder = 'INSERT PATH HERE'
+jpg_image_folder = 'INSERT PATH HERE'
+png_image_folder = 'INSERT PATH HERE'
 
 # adding empty alpha channel
 def add_alpha_channel(image_path):
@@ -399,4 +399,4 @@ def build_dataset(bg_list, class_images, class_names, train_size,  amount, outpu
 build_dataset(bg_list, class_images, class_names, 
               train_size=0.9, 
               amount=10, 
-              output_path='C:\\Users\\artem\\Desktop\\work\\puncher\\cards_names\\dataset')
+              output_path='INSERT PATH HERE')
